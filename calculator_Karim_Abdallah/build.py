@@ -2,10 +2,15 @@ from pybuilder.core import init, use_plugin
 
 use_plugin("python.core")
 use_plugin("python.unittest")
+use_plugin("python.distutils")
 
 name = "calculator_Karim_Abdallah"
 version = "0.1"
-default_task = "run_unit_tests"
+summary = "A calculator built and tested with PyBuilder."
+description = (
+    "Basic arithmetic, modulus, exponentiation, and square root functions."
+)
+default_task = "publish"
 
 
 @init
