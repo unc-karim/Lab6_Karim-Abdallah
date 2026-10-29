@@ -35,6 +35,13 @@ python -m unittest tests.unittest.calculator_Karim_Abdallah.test_calculator_Kari
 The `publish` task creates files locally. Uploading to a package registry is a
 separate operation.
 
+## Test screenshots
+
+- [PyBuilder test run](build_success.png): 15 passing tests and the successful
+  build summary, including the base directory and elapsed time.
+- [Direct unittest run](unittest_success.png): the separate Python unittest
+  command passing all 15 tests with `OK` in VS Code, with only `.venv` active.
+
 ## Distribution packages
 
 Generated packages are under
